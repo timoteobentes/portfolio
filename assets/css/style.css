@@ -1,0 +1,137 @@
+/* Global Settigns */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variables */
+:root{
+    --white: #ffffff;
+    --back: #000000;
+    --neon: #5FCADF;
+    --background: #000108;
+}
+
+/* Scrollbar Settigns */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--neon);
+    border-radius: 10px;
+}
+
+/* ------ */
+
+body {
+    background: var(--background);
+}
+
+/* Header */
+
+header #logo {
+    color: var(--white);
+    font-size: 50px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+header #logo span {
+    color: var(--neon);
+}
+
+.nav li a {
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    transition: ease .5s all;
+}
+
+.nav li a:hover {
+    color: var(--neon);
+    font-weight: 700;
+}
+
+/* header .form-selected {
+    --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e) !important;
+    background: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    width: 33% !important;
+} */
+
+/* Home Styles */
+
+.wrapper .Inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 112px;
+}
+
+.wrapper .Inicio .titulo .saudacao {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+.wrapper .Inicio .titulo .nome {
+    font-family: Poppins;
+    font-size: 154px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75%; /* 104.72px */
+    letter-spacing: -5.39px;
+
+    background: linear-gradient(90deg, #0A5CFF 7.3%, #430BA1 94.69%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 18px 0;
+}
+
+.wrapper .Inicio .titulo .dev {
+    color: #5FCADF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+.wrapper .Inicio .cube {
+    width: 650px;
+}
+
+.wrapper .Inicio .cube img {
+    width: 603px;
+    height: 565px;
+    position: absolute;
+    object-fit: cover;
+    top: 5%;
+    object-position: 116px 8px;
+    filter: invert(144);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+	0%, 100%{
+		transform:translatey(0);
+        transform: rotate(-15deg);
+	}
+	50%{
+		transform:translatey(-30px);
+        transform: rotate(15deg);
+	}
+}
