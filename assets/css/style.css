@@ -208,4 +208,75 @@ header #logo span {
     height: 350px;
     border-radius: 50px;
     background: rgba(8, 13, 31, 0.75);
+    margin: 200px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.backMe .image {
+    height: 100%;
+}
+
+.backMe .avatar {
+    height: 100%;
+    width: 300px;
+    transform: rotate(-90.604deg);
+}
+
+.backMe .infoMeAbout {
+    margin-left: -25px;
+}
+
+.backMe .infoMeAbout .infoMe-title {
+    /* width: 506.32px; */
+
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.backMe .infoMeAbout .infoMe-text {
+    /* width: 800px;
+    height: 45px; */
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Skills Styles */
+
+.hab-title {
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#Habilidades .line-1,
+#Habilidades .line-2, 
+#Habilidades .line-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+/* #Habilidades .line-1 .html {
+    width: 126.611px;
+    height: 126.611px;
+} */
+
+#Habilidades .lang img {
+    width: 500px;
+    margin-left: 50px;
 }
