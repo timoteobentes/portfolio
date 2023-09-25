@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Variables */
@@ -25,7 +26,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--neon);
+    background: #430BA1;
     border-radius: 10px;
 }
 
@@ -253,6 +254,10 @@ header #logo span {
 
 /* Skills Styles */
 
+#Habilidades {
+    margin-bottom: 70px;
+}
+
 .hab-title {
     color: var(--neon);
     font-family: Poppins;
@@ -279,6 +284,12 @@ header #logo span {
 #Habilidades .lang img {
     width: 500px;
     margin-left: 50px;
+}
+
+/* Experience Styles */
+
+#Experiencia {
+    margin-bottom: 70px;
 }
 
 #Experiencia .line-title {
