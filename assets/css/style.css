@@ -280,3 +280,53 @@ header #logo span {
     width: 500px;
     margin-left: 50px;
 }
+
+#Experiencia .line-title {
+    color: #5FCADF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.5%;
+}
+
+#Experiencia .line-subtitle {
+    color: #430BA1;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%;
+}
+
+#Experiencia .line-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 121.5%;
+}
+
+#Experiencia .vertical-date {
+    color: #bfbfbf80;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.5%; /* 42.525px */
+}
+
+#Experiencia .line-tecs {
+    text-decoration: none;
+    color: #40A4EA;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 121.5%;
+}
+
+#Experiencia .techs-icons {
+    font-size: 50px;
+}
