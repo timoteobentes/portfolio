@@ -51,7 +51,7 @@
 }
 
 .links a:hover {
-    color: var(--neon);
+    color: #430ba1;
 }
 
 .links .line {
@@ -340,4 +340,137 @@ header #logo span {
 
 #Experiencia .techs-icons {
     font-size: 50px;
+}
+
+/* Projects Styles */
+
+#Projeto {
+    margin-bottom: 70px;
+}
+
+#Projeto .pro-title {
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#Projeto .projects .bentech {
+    margin-top: 50px;
+}
+
+#Projeto .projects .selva .project,
+#Projeto .projects .bentech .project {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#Projeto .projects .selva .func,
+#Projeto .projects .bentech .func {
+    color: #430BA1;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#Projeto .projects .selva .link,
+#Projeto .projects .bentech .link {
+    color: #929292;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Works Styles */
+
+#Trabalho {
+    margin-bottom: 70px;
+}
+
+#Trabalho .tra-title {
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#Trabalho img {
+    border-radius: 29px;
+    width: 475px;
+}
+
+#Trabalho .infoTitle {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#Trabalho .infoSite {
+    color: #430BA1;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#Trabalho .infoLink {
+    color: #929292;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 105px;
+}
+
+#Trabalho .infoTechs {
+    color: #5FCADF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Trabalho .infoT {
+    color: #929292;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Trabalho .goGitHub {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
 }
