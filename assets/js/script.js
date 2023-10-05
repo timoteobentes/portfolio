@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".me");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Dev FullStack Jr", "Aluno", "Empreendedor", "Selvático", "Cuber"];
+const textArray = ["Dev FullStack Jr", "Aluno", "Empreendedor", "Selvático"];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newTextDelay = 1000; // Delay between current and next text
@@ -39,3 +39,11 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
     if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+function currentYear() {
+    let date = new Date();
+    let year = date.getFullYear();
+    return document.getElementById("ano").innerHTML = year;
+}
+
+currentYear();

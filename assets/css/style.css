@@ -91,15 +91,9 @@ header #logo span {
     font-weight: 700;
 }
 
-/* header .form-selected {
-    --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e) !important;
-    background: transparent !important;
-    color: #fff !important;
-    border: none !important;
-    width: 33% !important;
-} */
-
-/* Home Styles */
+.brazil {
+    width: 25px;
+}
 
 .wrapper .Inicio {
     display: flex;
@@ -398,7 +392,7 @@ header #logo span {
 /* Works Styles */
 
 #Trabalho {
-    margin-bottom: 70px;
+    margin-bottom: 150px;
 }
 
 #Trabalho .tra-title {
@@ -473,4 +467,156 @@ header #logo span {
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+}
+
+/* About Styles */
+
+#Sobre {
+    margin-bottom: 70px;
+}
+
+#Sobre .sob-title {
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+#Sobre .sob {
+    padding-left: 7%;
+}
+
+#Sobre img {
+    border-radius: 53px;
+    width: 350px;
+    filter: grayscale(100%);
+    transition: ease 1s all;
+}
+
+#Sobre img:hover {
+    filter: grayscale(0);
+}
+
+#Sobre img:hover .telaW {
+    transform: rotate(4.773deg);
+}
+
+#Sobre img:hover .telaB {
+    transform: rotate(1deg);
+}
+
+#Sobre img:hover .telaP {
+    transform: rotate(-4.523deg);
+}
+
+#Sobre .sob {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Sobre .telaW {
+    position: absolute;
+    z-index: -1;
+
+    width: 350px;
+    height: 350px;
+    transform: rotate(-4.773deg);
+
+    border-radius: 53px;
+    background: #FFF;
+}
+
+#Sobre .telaB {
+    position: absolute;
+    z-index: -1;
+
+    width: 350px;
+    height: 350px;
+    transform: rotate(-1deg);
+
+    border-radius: 53px;
+    background: #40A4EA;
+}
+
+#Sobre .telaP {
+    position: absolute;
+    z-index: -1;
+
+    width: 350px;
+    height: 350px;
+    transform: rotate(4.523deg);
+
+    border-radius: 53px;
+    background: #430BA1;
+}
+
+/* Contact Styles */
+
+#Contato .cont-title {
+    color: var(--neon);
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#Contato img {
+    width: 500px;
+    filter: grayscale(100%);
+}
+
+#Contato p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5%;
+}
+
+#Contato button {
+    color: var(--white);
+    border-radius: 22px;
+    border: 5px solid #430BA1;
+    transition: ease .5s all;
+}
+
+#Contato button:hover {
+    background: #430BA1;
+}
+
+/* Footer Styles */
+
+footer {
+    margin-top: 80px;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+    transition: ease .5s;
+}
+
+footer i {
+    font-size: 35px;
+}
+
+footer a:hover {
+    color: var(--neon);
 }
