@@ -621,3 +621,15 @@ footer i {
 footer a:hover {
     color: var(--neon);
 }
+
+footer .cv {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 3px 16px;
+}
+
+footer .cv:hover {
+    background: darkblue;
+    color: #ffffff;
+    box-shadow: 0 2px 15px darkblue;
+}
