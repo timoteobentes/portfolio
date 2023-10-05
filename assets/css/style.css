@@ -592,6 +592,7 @@ header #logo span {
 
 #Contato button:hover {
     background: #430BA1;
+    box-shadow: 0 0px 53px #430BA1;
 }
 
 /* Footer Styles */
