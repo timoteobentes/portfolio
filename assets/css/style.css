@@ -32,6 +32,14 @@
 
 /* ------ */
 
+#dropMenu {
+    display: none;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(12);
+}
+
 .links {
     position: fixed;
     bottom: 0;
@@ -64,7 +72,7 @@
 }
 
 body {
-    background: var(--background);
+    background: var(--background) !important;
 }
 
 /* Header */
@@ -79,14 +87,14 @@ header #logo span {
     color: var(--neon);
 }
 
-.nav li a {
+.navbar-nav li a {
     color: var(--white);
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     transition: ease .5s all;
 }
 
-.nav li a:hover {
+.navbar-nav li a:hover {
     color: var(--neon);
     font-weight: 700;
 }
@@ -95,14 +103,14 @@ header #logo span {
     width: 25px;
 }
 
-.wrapper .Inicio {
+.wrappers .Inicio {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 112px;
 }
 
-.wrapper .Inicio .titulo .saudacao {
+.wrappers .Inicio .titulo .saudacao {
     color: var(--white);
     font-family: Poppins;
     font-size: 37px;
@@ -111,12 +119,12 @@ header #logo span {
     line-height: normal;
 }
 
-.wrapper .Inicio .titulo .nome {
+.wrappers .Inicio .titulo .nome {
     font-family: Poppins;
-    font-size: 154px;
+    font-size: 145px;
     font-style: normal;
     font-weight: 600;
-    line-height: 75%; /* 104.72px */
+    line-height: 75%;
     letter-spacing: -5.39px;
 
     background: linear-gradient(90deg, #0A5CFF 7.3%, #430BA1 94.69%);
@@ -135,12 +143,12 @@ header #logo span {
     line-height: normal;
 }
 
-.wrapper .Inicio .titulo .me {
+.wrappers .Inicio .titulo .me {
     color: var(--neon);
     font-family: Poppins;
 }
 
-.wrappee .Inicio .titulo .me span.cursor {
+.wrappers .Inicio .titulo .me span.cursor {
     display: inline-block;
     background-color: #ccc;
     margin-left: 0.1rem;
@@ -148,7 +156,7 @@ header #logo span {
     animation: blink 1s infinite;
 }
 
-.wrappee .Inicio .titulo .me span.cursor.typing {
+.wrappers .Inicio .titulo .me span.cursor.typing {
     animation: none;
 }
 
@@ -170,16 +178,16 @@ header #logo span {
     }
 }
 
-.wrapper .Inicio .cube {
+.wrappers .Inicio .cube {
     width: 650px;
 }
 
-.wrapper .Inicio .cube img {
+.wrappers .Inicio .cube img {
     width: 603px;
     height: 410px;
-    position: absolute;
+    /* position: absolute;
+    top: 21%; */
     object-fit: cover;
-    top: 21%;
     object-position: 66px -125px;
     filter: invert(144);
     animation: float 2s ease-in-out infinite;
