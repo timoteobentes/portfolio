@@ -641,3 +641,173 @@ footer .cv:hover {
     color: #ffffff;
     box-shadow: 0 2px 15px darkblue;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 350px) and (max-width: 430px) {
+    .links {
+        display: none;
+    }
+
+    .g-0 {
+        width: 100%;
+    }
+
+    .wrappers .Inicio .titulo .nome {
+        font-size: 75px;
+    }
+
+    .infoMe {
+        font-size: 35px;
+    }
+
+    .wrappers .Inicio .cube img {
+        width: 603px;
+        height: 247px;
+        object-fit: cover;
+        object-position: 16px -75px;
+        filter: invert(144);
+        animation: none;
+    }
+
+    .backMe {
+        width: 100%;
+        height: 678px;
+        border-radius: 50px;
+        background: rgba(8, 13, 31, 0.75);
+        margin: 200px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .backMe .image {
+        height: 45%;
+    }
+
+    .backMe .avatar {
+        height: 100%;
+        width: 300px;
+        transform: none;
+    }
+
+    .backMe .infoMeAbout {
+        margin-left: 17px;
+    }
+
+    .backMe .infoMeAbout .infoMe-text {
+        font-size: 20px;
+    }
+
+    .hab-title, #Projeto .pro-title, #Trabalho .tra-title,
+    #Sobre .sob-title, #Contato .cont-title {
+        font-size: 45px;
+    }
+
+    #Habilidades svg {
+        width: 90px;
+    }
+
+    #Habilidades .lang img {
+        margin-left: 0;
+    }
+
+    .traColumn {
+        flex-direction: column;
+    }
+
+    .traColumn .info {
+        margin-top: 30px;
+    }
+
+    .sobColumn {
+        flex-direction: column;
+    }
+
+    #Sobre .sob {
+        margin-bottom: 60px;
+    }
+
+    #Contato .chats {
+        display: none !important;
+    }
+
+    #Contato button {
+        width: 50% !important;
+    }
+
+    .linkCell {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 840px) {
+    .links {
+        display: none;
+    }
+
+    .backMe {
+        width: 100%;
+        height: 430px;
+        border-radius: 50px;
+        background: rgba(8, 13, 31, 0.75);
+        margin: 200px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .backMe .image {
+        height: 70%;
+    }
+
+    .backMe .avatar {
+        height: 100%;
+        width: 300px;
+    }
+
+    .backMe .infoMeAbout {
+        margin-left: 17px;
+    }
+
+    .backMe .infoMeAbout .infoMe-text {
+        font-size: 20px;
+    }
+
+    #Habilidades svg {
+        width: 90px;
+    }
+
+    #Projeto img {
+        width: 280px;
+    }
+
+    
+
+    #Contato .cont {
+        margin-left: 80px;
+    }
+
+    #Contato button {
+        width: 50% !important;
+    }
+
+    .linkCell {
+        width: 100% !important;
+    }
+}
+
+@media screen and (width: 1280px) {
+    .wrappers .Inicio .cube {
+        width: 460px;
+    }
+
+    .wrappers .Inicio .cube img {
+        width: 487px;
+        height: 349px;
+        object-fit: cover;
+        object-position: 18px -47px;
+        filter: invert(144);
+        animation: none;
+    }
+}
