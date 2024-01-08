@@ -591,14 +591,14 @@ header #logo span {
     padding-left: 5%;
 }
 
-#Contato button {
+#Contato a {
     color: var(--white);
     border-radius: 22px;
     border: 5px solid #430BA1;
     transition: ease .5s all;
 }
 
-#Contato button:hover {
+#Contato a:hover {
     background: #430BA1;
     box-shadow: 0 0px 53px #430BA1;
 }
